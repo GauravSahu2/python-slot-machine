@@ -1,0 +1,63 @@
+Task: do heavy unit and quality testing of the code and write testcases cover every aspect and everything in the test cases Resole every error, bug, warning, and simplify the code and architecture.
+
+
+
+
+Task: fix and reduce the cyclomatic, cognitive, time, and space complexity of this project
+
+
+
+
+Task: tell me the cyclomatic, cognitive, time, and space complexity of this project 
+
+
+
+
+Task: add comments on each line or function explaining what it does, do it in every line of this file 
+
+
+
+
+Task: write the full structured medium blog with all this complexity results and their explanation that you have given here this is going to be at the very of the blog. start with introduction, basic idea, what we are trying to demonstrate and what python specific functions like lists, tuples, dictionary etc we have used here then the logic behind calculations then flow chart of the program then architecture of this project  then explain the code line by line, i will uploading 9 code snippets  1st will be this one import random
+
+MAX_LINES = 3
+MAX_BET = 1000
+MIN_BET = 1 
+
+ROWS = 3
+COLS = 3
+
+symbol_count = {
+    "A": 2,
+    "B": 4,
+    "C": 6,
+    "D": 8 
+}
+
+symbol_value = {
+    "A": 5,
+    "B": 4,
+    "C": 3,
+    "D": 2
+} then  snippet 2 will be def check_winnings(columns, lines, bet, values):
+    winnings = 0
+    winnings_lines = []
+    for line in range(lines):
+        symbol = columns[0][line]
+        for column in columns:
+            symbol_to_check = column[line]
+            if symbol != symbol_to_check:
+                break
+        else:
+            winnings += values[symbol] * bet
+            winnings_lines.append(line + 1)
+    
+    
+    return winnings, winnings_lines in this i will cover rest of the code  seperated by def's code snippets and explain each and every snippet one by one  give it in a text or docx file    
+
+
+
+
+
+
+
